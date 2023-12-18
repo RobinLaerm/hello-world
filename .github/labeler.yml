@@ -1,0 +1,5 @@
+# first level is the name of the label we want to add
+'code review':
+    - '**'
+    - '.*/**'
+    - '.*'
