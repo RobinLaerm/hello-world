@@ -1,5 +1,5 @@
 # hello-world
 
-This is my first project on GitHub.
+This is a test project for experiments.
 What about new line?
 Change to trigger labeler workflow.
