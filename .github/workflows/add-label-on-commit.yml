@@ -7,7 +7,7 @@ on:
 jobs:
   # edit .github/labeler.yml to add other triggers and labels
   add-code-review-label:
-    runs-on: [ubuntu_latest]
+    runs-on: [ubuntu-latest]
     steps:
       - uses: actions/labeler@v4
         with: 
