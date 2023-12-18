@@ -1,0 +1,15 @@
+name: add-label-on-commit
+run-name: create code review label on commit
+env:
+  GH_TOKEN: ${{ github.token }}
+on:
+  push:
+jobs:
+  # edit .github/labeler.yml to add other triggers and labels
+  add-code-review-label:
+    runs-on: [ubuntu_latest]
+    steps:
+      - uses: actions/labeler@v4
+        with: 
+          repo-token: "${{ secrets.GITHUB_TOKEN }}"
+      - run: echo Success
